@@ -4,7 +4,9 @@ body {    background-color:#131313;
 }
 h1 {color: white;}
 h1 {font-family: 'roboto', sans-serif;}
-div.media-picture {height: 400px; background-image: url(https://raw.githubusercontent.com/ViviAkhemi/ViviAkhemi.github.io/main/img/capita-marvel.jpg);
+div.media-picture {height: 400px; background-image: url(<img style="display: block;-webkit-user-select: 
+  none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" 
+  src="https://raw.githubusercontent.com/ViviAkhemi/ViviAkhemi.github.io/main/img/capita-marvel.jpg">);
 background-repeat: no-repeat;}
 
 span.review-score {color: white}
