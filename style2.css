@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.Descontos {
+    width: 100%;
+    height: 38px;
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+.Super {
+    width: 100%;
+    height: 101px;
+    background-color: #00669F;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 28px;
+}
+
+/*main*/
+
+main {
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+
+.principal {
+    width: 80%;
+    height: 80vh;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+} 
+/*card1*/
+.card1 {
+
+    width: 38%;
+    height: 80vh;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.painelBatman {
+    width: 38%;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo_card1 > img {
+    width: 834px;   
+}
+
+.foto1 > img {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: -130px;
+}
+
+.sobre {
+    width: 75%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;   
+    
+}
+h2 {
+    font-family: roboto;
+    font-size: 80px;    
+}
+
+p {
+    font-size: roboto;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.VerMais1 {
+    width: 250px;
+    height: 120px;
+    background-color: #1CD1B0;
+    margin-block-end: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.VerMais1 > a {
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/*card2*/
+.card2 {
+    width: 38%;
+    height: 80vh;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.painelArlequina {
+    width: 38%;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundo_card2 > img {
+    width: 834px;
+}
+.foto2 > img {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: -130px;
+}
+
+.sobre1 {
+    width: 75%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-evenly;
+    
+}
+h3 {
+    font-family: roboto;
+    font-size: 80px;
+}
+
+.VerMais2 {
+    width: 250px;
+    height: 120px;
+    background-color: #1CD1B0;
+    margin-block-end: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.VerMais2 > a {
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 51px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer > p {
+    color: #FFF9F9;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 14px 0px 0px 28px;
+}
