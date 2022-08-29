@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHeróis</title>
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="Descontos">Descontos de 20%</div>
+
+        <div class="Super">Super Heróis</div>
+
+    </header>
+
+    <main>
+        <section class="principal">
+
+            <div class="card1">
+                <div class="painelBatman">
+
+                    <div class="fundo_card1">
+                        <img src="img/849bfede3a5193c34ab8a00379e64fa2 1.png" alt="fundo do cartão">
+
+                    </div>
+
+                    <div class="foto1">
+                        <img src="img/liga-justicia-batman-kO4H--1024x512@abc 1.png" alt="fotoBatman">
+                    </div>
+                </div>
+
+                <div class="sobre">
+                    <h2>Batman</h2>
+                    <p>Bruce Wayne é o único personagem a se identificar
+                        como Batman e aparece em Batman, Detective Comics,
+                        Batman e Robin e Batman: O Cavaleiro das Trevas.
+                        Dick Grayson retorna ao manto de Asa Noturna</p>
+                </div>
+
+                <div class="VerMais1">
+                    <a>Ver Mais</a>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="card2">
+                <div class="painelArlequina">
+
+                    <div class="fundo_card2">
+                        <img src="img/Arlequina/849bfede3a5193c34ab8a00379e64fa2 1.png" alt="fundo do cartão2">
+                    </div>
+                    <div class="foto2">
+                        <img src="img/Arlequina/liga-justicia-batman-kO4H--1024x512@abc 1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="sobre1">
+                    <h3>Arlequina</h3>
+                    <p>A criação de Arlequina foi uma ideia de
+                        última hora proposta pelo escritor americano Paul
+                        Dini para modificar uma cena do vigésimo segundo
+                        episódio de Batman: The Animated Series.
+                    </p>
+
+                </div>
+                <div class="VerMais2">
+                    <a>Ver Mais</a>
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados a Front-end I</p>
+    </footer>
+</body>
+
+</html>
