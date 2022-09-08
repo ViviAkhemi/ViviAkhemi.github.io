@@ -183,7 +183,3 @@ footer {
 }
 .developer:hover {
     color: fuchsia;
-}
-.developer {
-    transform: scale(1,2);
-}
