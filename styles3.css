@@ -24,6 +24,7 @@ html {
     flex-direction: column;
     justify-content: center;
     position: fixed;
+    top:0;
 }
 
 .city {
