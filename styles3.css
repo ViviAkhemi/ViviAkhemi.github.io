@@ -23,7 +23,7 @@ html {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-
+    position: fixed;
 }
 
 .city {
@@ -35,8 +35,7 @@ html {
     font-weight: 400;
     font-size: 2em;
     color: white;
-    margin-left: 25px;
-    position: fixed;
+    margin-left: 25px;    
 }
 
 .navegador {
