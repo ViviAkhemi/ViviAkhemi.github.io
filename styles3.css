@@ -76,6 +76,8 @@ main {
 
 .quadro576>img {
     width: 100vw;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 
 h2 {
