@@ -1,0 +1,104 @@
+@media only screen and (max-width: 576px) {
+    .quadro576 {
+        display: none;
+    }
+   
+}
+/* for tablets and desktops */
+@media only screen and (min-width: 577px) and (max-width: 2580px) {
+
+.headermain {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.city {
+    background-size: 110px;
+}
+.navegador{
+    width: 80vw;
+    height: 100px;    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;    
+    gap: 20px;   
+}
+ul > li {
+    width: 250px;
+    height: 70px;
+}
+ul > li > a{
+    font-size: 2em;   
+}
+/*main*/
+h2 {
+    font-size: 3.5em;
+    margin-left: 250px;
+}
+.curiosity {
+    height: 100vh;
+}
+.flexpai {
+    width: 100vw;
+    height: 100vh;
+    max-width: 1280px;
+    flex-direction: column;
+    margin-left: 230px;
+    gap: 80px
+}
+.box1 {
+    width: 33%;
+    height: 70%;
+}
+.box2 {
+    width: 33%;
+    height: 70%;
+}
+.box3 {
+    width: 33%;
+    height: 70%;
+}
+p {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 2.5em;
+    margin-left: 230px;
+}
+.Video__Okinawa {
+    margin-left: 180px;
+}
+
+.Video__Okinawa > a > img {
+    width: 70vw;
+    align-content: center;
+    justify-content: center;
+}
+.developer {
+    margin: 200px;
+    font-size: 1em;;
+}
+footer {
+    height: 30vh;
+}
+.conteudo__rodape {
+    width: 100vw;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+}
