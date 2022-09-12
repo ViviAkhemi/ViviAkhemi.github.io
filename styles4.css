@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* a cada 1rem será considerada 10px */
+    font-size: 62.5%;
+}
+body {
+    background-image: url("../img/kanji.okinawa.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header {
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px, 0px;
+}
+h1 {
+    color: red;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem_logo {
+    width: 160px;
+    height: 140px;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem_logo img {
+    width: 65%;
+    height: auto;
+    border-radius: 50%;
+}
+nav {
+    width: 100%;
+    height: 140px;
+    background-color: rgba(255, 0, 0, 0.8);    
+}
+nav > ul {
+    width: 100%;
+    height: 50px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+nav > ul > li {
+    list-style: none;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+/*main*/
+main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.curiosidades {
+    width: 90%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;    
+}
+.titulo_curiosidades {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 4rem;
+    color: rgba(255, 0, 0, 0.8);    
+}
+.banner_curiosidades {
+    width: 100%;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+.sushi1 {
+    width: 90%;
+    height: 400px;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sushi2 {
+    width: 90%;
+    height: 400px;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sushi3 {
+    width: 90%;
+    height: 400px;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem_bg1{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.imagem_bg1 > img {
+    width: 100%;
+    height: 180px;
+    opacity: 0.7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.texto1 {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.texto1 > p {
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-family: poppins;
+    color: #ffffff;
+}
+.btn_Saiba {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.btn_Saiba > a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.8);
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn_Saiba > a:hover {
+    cursor: pointer;
+    
+}
+/*sushi2*/
+.imagem_bg2{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.imagem_bg2 > img {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.texto2 {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.texto2 > p {
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-family: poppins;
+    color: #ffffff;
+}
+.btn_Saiba2 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.btn_Saiba2 > a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.8);
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn_Saiba2 > a:hover {
+    cursor: pointer;
+    
+}
+/*sushi3*/
+.imagem_bg3{
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+}
+.imagem_bg3 > img {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.texto3 {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.texto3 > p {
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-family: poppins;
+    color: #ffffff;
+}
+.btn_Saiba3 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.btn_Saiba3 > a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.8);
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.btn_Saiba3 > a:hover {
+    cursor: pointer;    
+}
+/*video*/
+.video {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.titulo_video {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: roboto;
+    font-size: 4rem;
+    color: rgba(255, 0, 0, 0.8);
+}
+.video_youtube {
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+}
+.video_youtube > iframe {
+    width: 100%;
+    height: 240px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+/*footer*/
+footer {
+    width: 100vw;
+    height: 270px;
+    background-color: rgba(255, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.linkedin {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin > a {
+    width: 50%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin > a > img {
+    width: 90%;
+    border-radius: 50%;
+}
+.github {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github > a {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github > a > img {
+    width: 90%;
+    border-radius: 50%;
+}
+.copy {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color:#ffffff;
+    font-weight: 600;
+    font-family: roboto;
+    font-size: 1.3rem;
+}
