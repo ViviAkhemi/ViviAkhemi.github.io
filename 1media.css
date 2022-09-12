@@ -1,0 +1,270 @@
+/* for mobile phones */
+@media only screen and (max-width: 576px) {
+    .banner_principal {
+        display: none;
+    }
+
+}
+
+/* for tablets and desktops */
+@media only screen and (min-width: 577px) and (max-width: 1280px) {
+    .cabecalho {
+        width: 100vw;
+        height: 213px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .logo {
+        width: 100%;
+        height: 213px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .imagem_logo {
+        width: 150px;
+        height: 140px;
+        background-color: rgba(255, 0, 0, 0.9);
+        opacity: 70%;
+    }
+    nav {
+        width: 100vw;
+        height: 213px;
+        background-color: rgba(255, 0, 0, 0.9);
+        opacity: 50%;  
+    }
+    nav > ul {
+        width: 70vw;
+        height: 213px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav > ul > li > a {
+        font-size: 3.8rem;
+        color: #ffffff;
+    }
+    h1 {
+        transform: rotate(270deg);
+        justify-content: end;
+    }
+/*main*/
+main {
+    width: auto;
+    height: auto;
+}
+
+.banner_principal {
+    width: 100vw;
+    height: 532px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner_casal {
+    width: 100vw;
+    height: 532px;
+    background-image: url("../img/cem.anos.okinawa.png");
+    z-index: -1;
+    opacity: 60%;
+}
+p {
+    width: 100vw;
+    height: 1px;
+    font-family: roboto;
+    font-size: 25px;
+    text-align: center;     
+    color: #ffffff;          
+}
+.curiosidades {
+    width: 100%;
+    height: 600px;
+    padding: 10px 50px 
+}
+.titulo_curiosidades {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 6rem;
+    padding: 0px, 15px;    
+}
+.banner_curiosidades {
+    width: 90vw;
+    height: 534px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+
+}
+.sushi1 {
+    width: 30%;
+    height: 534px;
+    opacity: 60%;
+}
+.sushi2 {
+    width: 30%;
+    height: 534px;
+    opacity: 60%;  
+}
+.sushi3 {
+    width: 30%;
+    height: 534px;
+    opacity: 60%;
+}
+.imagem_bg1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.imagem_bg1 > img {
+    width: 100%;
+    height: 250px;
+    opacity: 0.7;
+}
+.texto1 {
+    height: 50%;
+    justify-content: flex-start;
+}
+.texto1 > p {    
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    
+}
+.btn_Saiba {
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+.btn_Saiba > a {    
+    font-size: 1.4rem;
+    
+}
+/*sushi2*/
+.imagem_bg2 {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.imagem_bg2 > img {
+    width: 100%;
+    height: 250px;
+}
+.texto2 {
+    height: 250px;
+}
+.texto2 > p {    
+    font-size: 1.5rem;
+    height: px;
+}
+.btn_Saiba2 {
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+.btn_Saiba2 > a {    
+    font-size: 1.4rem; 
+}
+/*sushi3*/
+.imagem_bg3 {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.imagem_bg3 > img {
+    width: 100%;
+    height: 250px;
+    opacity: 0.7;
+}
+.texto3 {
+    height: 250px;    
+}
+.texto3 > p {    
+    font-size: 1.5rem;
+}
+.btn_Saiba3 {
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+.btn_Saiba3 > a {    
+    font-size: 1.4rem;   
+}
+/*video*/
+.video {
+    width: 110%;
+    height: 650px;
+    display: column;
+    padding: 10px 50px       
+}
+.titulo_video {    
+    height: 50px;
+    font-size: 6rem;
+}
+.video_youtube > iframe {
+    width: 100%;
+    height: 550px;
+    opacity: 60%;
+}
+
+/*footer*/
+footer {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    opacity: 60%;
+}
+.linkedin {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin > a {
+    width: 50%;
+    height: 100px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin > a > img {
+    width: 70%;
+    border-radius: 50%;
+}
+.github {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github > a {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github > a > img {
+    width: 70%;
+    border-radius: 50%;
+}
+.copy {
+    width: 100%;
+    height: 10px;
+    font-size: 2rem;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+}
