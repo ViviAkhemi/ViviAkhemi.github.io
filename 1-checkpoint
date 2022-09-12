@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Checkpoint</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/media.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        
+        <div class="logo">
+
+            <div class="imagem_logo">
+                <img src="img/okinawa-svgrepo-com.svg" alt="bandeira">
+            </div>
+
+        </div>
+        <h1>OKINAWA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#section1">Curiosidades</a></li>
+                <li><a href="#video" target="_blank">Vídeo</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="banner_principal">
+            
+            <div class="banner_casal">imagem_casal</div>
+
+            <div class="sobre_Okinawa">
+                <p>
+                     
+                    <b>Okinawa</b>, antigamente conhecida como <b>Ryukyu</b>, 
+                    era um reino independente até o século XVII e, portanto, 
+                    desenvolveu dialeto e tradições culturais distintos. 
+                    Mais conhecida em Hollywood por ser a Terra dos samurais e do
+                    <b>Miyagi-San em Karatê-Kid</b>.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="curiosidades" id="section1">
+
+            <div class="titulo_curiosidades">
+                <h4>Curiosidades</h4>
+            </div>
+
+            <div class="banner_curiosidades">
+
+                <div class="sushi1">
+
+                    <div class="imagem_bg1">
+                        <img src="img/ikigai.okinawa.png" alt="imagem1">
+                    </div>
+
+                    <div class="texto1">
+                        <p>
+                            IKIGAI é uma filosofia de OKINAWA onde as pessoas vivem,
+                            em média, mais de 100 anos e, em japonês, IKIGAI significa
+                            “A razão pela qual eu acordo todos os dias pela
+                            manhã” ou “Razão para viver”, conceito que traz
+                            a busca pelo SENTIDO para tudo o que realizamos.
+                        </p>
+                    </div>
+
+                    <div class="btn_Saiba">
+                        <a href="https://fia.com.br/blog/ikigai/" target="_blank">Saiba Mais</a>
+                    </div>
+
+                </div>
+
+                <div class="sushi2">
+
+                    <div class="imagem_bg2">
+                        <img src="img/okinawa.war.png" alt="imagem2">
+                    </div>
+
+                    <div class="texto2">
+                        <p>
+                            Okinawa foi o único local do Japão
+                            onde de fato foi travada uma
+                            batalha terrestre no país. Foi criado um parque
+                            que conta sobre os tristes anos de sofrimento dos locais, bem
+                            como homenageia todos os mortos na guerra de todos os lados
+                            e nacionalidades.
+                        </p>
+                    </div>
+
+                    <div class="btn_Saiba2">
+                        <a href="https://brasilescola.uol.com.br/guerras/batalha-okinawa.htm" target="_blank"">Saiba Mais</a>
+                    </div>
+
+                </div>
+
+                <div class="sushi3">
+
+                    <div class="imagem_bg3">
+                        <img src="img/ryukyu.taiko.png" alt="imagem3">
+                    </div>
+
+                    <div class="texto3">
+                        <p>
+                            Segundo uma lenda, as batidas do
+                            taiko são semelhantes aos primeiros sons que escutamos em vida: as batidas
+                            do coração materno. Sosaku Eisa é um estilo moderno, com performances que misturam
+                            música pop, movimentos de karate e outros elementos.
+                        </p>
+                    </div>
+
+                    <div class="btn_Saiba3">
+                        <a href="https://youtu.be/eyM0XnhF1cM" target="_blank">Saiba Mais</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="video" id="video">
+
+            <div class="titulo_video">
+                <h4>Vídeo</h4>
+            </div>
+
+            <div class="video_youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/c8cPtqo6tbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/viviane-akemi-okuma-49351529/" target="_blank">
+                <img src="img/LinkedIn_icon.svg" alt="linkedin">
+            </a>
+        </div>
+
+        <div class="github">
+            <a href="https://viviakhemi.github.io/index.html" target="_blank">
+                <img src="img/github_icon.svg" alt="github">
+            </a>
+        </div>
+
+        <div class="copy">
+            <small>Todos os direitos reservados @uhuu.dev</small>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
